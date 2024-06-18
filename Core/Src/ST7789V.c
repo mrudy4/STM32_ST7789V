@@ -17,7 +17,7 @@ extern SPI_HandleTypeDef hspi2;
 void ST7789V_init(){
 
 	HAL_GPIO_WritePin(ST7789V_CS_PORT, ST7789V_CS_PIN, 0);
-
+	// test //
 }
 
 void CS_Select (void)
