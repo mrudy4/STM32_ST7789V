@@ -21,7 +21,6 @@
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
-#include "ST7789V.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -91,7 +90,10 @@ int main(void)
   MX_USART2_UART_Init();
   MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_GPIO_WritePin(GPIOC, bl_Pin, 1);
+  ST7789_Init();
+  HAL_Delay(100);
+  ST7789_Test();
   /* USER CODE END 2 */
 
   /* Infinite loop */

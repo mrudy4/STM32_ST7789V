@@ -5,9 +5,9 @@
  *      Author: maciejrudy
  */
 
+#include <ST7789V_prev.h>
 #include "stm32f1xx_hal.h"
 #include "gpio.h"
-#include "ST7789V.h"
 
 extern SPI_HandleTypeDef hspi2;
 #define ST7789V_SPI &hspi2

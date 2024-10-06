@@ -5,9 +5,9 @@
  *      Author: maciejrudy
  */
 
-#ifndef INC_ST7789V_H_
-#define INC_ST7789V_H_
+#ifndef INC_ST7789V_PREV_H_
+#define INC_ST7789V_PREV_H_
 
 void ST7789V_init();
 
-#endif /* INC_ST7789V_H_ */
+#endif /* INC_ST7789V_PREV_H_ */
